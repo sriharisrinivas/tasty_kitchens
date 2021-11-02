@@ -1,14 +1,14 @@
 .carousal-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 100px;
 }
 
 .popular-restaurants-container {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 2px solid red;
-  padding: 30px 0px 30px 300px;
+  padding: 30px 300px 30px 300px;
 }
 
 .heading {
@@ -19,9 +19,28 @@
   line-height: 48px;
   color: #183b56;
 }
+
 .sort-by-container {
   display: flex;
   justify-content: space-between;
+}
+
+.sort-by-select {
+  color: #475569;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-option {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
 }
 
 .inner-heading {
@@ -31,4 +50,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #64748b;
+}
+
+.horizontal-line {
+  border: 1px solid #cbd2d9;
+  width: 100%;
 }

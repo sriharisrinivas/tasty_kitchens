@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: center;
   background: #f8fafc;
+  position: fixed;
 }
 
 .unordered-list {

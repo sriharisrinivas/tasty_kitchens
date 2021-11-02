@@ -5,6 +5,8 @@ import Cookies from 'js-cookie'
 import logo from '../../images/Group 7420.png'
 
 const Header = props => {
+  const {activeOptionId} = props
+  console.log(activeOptionId)
   const onClickLogout = () => {
     const {history} = props
     Cookies.remove('jwt_token')
