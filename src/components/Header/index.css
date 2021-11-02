@@ -1,0 +1,38 @@
+.nav-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f8fafc;
+}
+
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  width: 15%;
+}
+.list-item {
+  padding-top: 3px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.logout-button {
+  background: #f7931e;
+  border-radius: 5px;
+  height: 30px;
+  width: 101px;
+  border: none;
+  color: white;
+  align-self: center;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
